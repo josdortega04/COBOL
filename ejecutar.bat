@@ -2,6 +2,9 @@
 chcp 65001 >nul
 title Sistema de Procesamiento Bancario - COBOL
 
+REM -- Agregar GnuCOBOL al PATH --
+set PATH=C:\ProgramData\chocolatey\lib\gnucobol\tools\bin;%PATH%
+
 echo ================================================
 echo   SISTEMA DE PROCESAMIENTO BANCARIO - COBOL
 echo   Autor: Jose David Ortega
@@ -26,7 +29,7 @@ if not exist transacciones.dat (
 )
 
 echo [1/8] Compilando CARGTRX.COB...
-cobc -x -free -o cargtrx.exe CARGTRX.COB
+cobc -x -o cargtrx.exe CARGTRX.COB
 if %ERRORLEVEL% NEQ 0 (
     echo [ERROR] Fallo la compilacion de CARGTRX.COB
     pause
