@@ -1,0 +1,52 @@
+        FECHA: 13/05/2026
+================================================
+        BANCO SISTEMA - REPORTE FINANCIERO
+        DETALLE DE SALDOS Y MOVIMIENTOS POR CUENTA
+================================================
+
+  CUENTA      DEBITOS           CREDITOS
+              SALDO FINAL        NUM.TRX
+------------------------------------------------
+  CUENTA001         700,000.08        500,000.02
+              -      200,000.06            50.02
+
+  CUENTA002         500,000.06        800,000.02
+                     299,999.96            40.02
+
+  CUENTA003   1,000,000,000.04        900,000.02
+              -  999,100,000.02            30.02
+
+  CUENTA004       1,030,000.06              0.00
+              -    1,030,000.06            30.00
+
+  CUENTA005          50,000.02      1,000,000.04
+                     950,000.02            30.04
+
+  CUENTA007               0.02              0.00
+              -            0.02            10.00
+
+  CUENTA008       1,600,000.04      2,400,000.04
+                     800,000.00            40.04
+
+  CUENTA009       2,500,000.02      2,500,000.02
+                           0.00            20.02
+
+  CUENTA010       1,500,000.04      1,000,000.02
+              -      500,000.02            30.02
+
+================================================
+        RESUMEN EJECUTIVO GENERAL
+================================================
+  Total cuentas procesadas :       9
+  Total transacciones      :          28
+
+  --- TOTALES POR TIPO DE TRANSACCION ---
+  Total debitos            :     1,007,880,000.38
+  Total creditos           :         9,100,000.18
+  Saldo neto consolidado   : -      998,780,000.20
+
+  --- CLASIFICACION DE CUENTAS ---
+  Cuentas con saldo positivo: 000003
+  Cuentas con saldo negativo: 000005
+  Cuentas en cero           : 000001
+================================================

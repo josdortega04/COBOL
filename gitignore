@@ -1,0 +1,27 @@
+# Ejecutables compilados
+*.exe
+*.dll
+*.so
+*.o
+
+# Archivos de salida generados por el sistema
+trx-validas.dat
+trx-errores.dat
+saldos.dat
+anomalas.dat
+reporte.txt
+reporte-anomalas.txt
+
+# Archivos temporales de compilacion
+*.i
+*.c
+*.lst
+
+# Archivos de sistema Windows
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# VS Code
+.vscode/
+*.code-workspace

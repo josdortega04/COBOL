@@ -1,0 +1,18 @@
+================================================
+     BANCO SISTEMA - REPORTE DE ANOMALIAS
+================================================
+  CUENTA     TIPO  MONTO              MOTIVO
+------------------------------------------------
+  CUENTA001   D        200,000.02  POSIBLE DUPLICADA
+  CUENTA002   D        100,000.02  POSIBLE DUPLICADA
+  CUENTA003   D    500,000,000.02  MONTO SUPERA LIMITE
+  CUENTA003   D    500,000,000.02  MONTO SUPERA LIMITE
+================================================
+        RESUMEN DE ANOMALIAS DETECTADAS
+================================================
+  Transacciones analizadas : 000028ADAS
+  Total anomalias          : 000004ADAS
+  Montos sobre limite      : 000002ADAS
+  Debitos consecutivos     : 000000ADAS
+  Posibles duplicadas      : 000002ADAS
+================================================
